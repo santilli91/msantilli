@@ -1,0 +1,10 @@
+body {
+  background-color: #afafaf;
+}
+
+a {
+  font-family: 'arial';
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}

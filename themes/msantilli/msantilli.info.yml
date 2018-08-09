@@ -7,7 +7,7 @@ core: 8.x
 screenshot: screenshot.png
 
 libraries:
- - hmp_base/global
+ - msantilli/global
 
 regions:
  logo: logo

@@ -1,0 +1,66 @@
+
+<div id="page">
+
+<section class="wrapper fixed" id="header-wrap">
+	<div class="container" id="header">
+		<div class="row">
+
+			<div class="col-xs-12" id="header-left">
+				<a href="#" id="site-logo"></a>
+			</div>
+		</div>
+	</div>
+</section>
+<div id="main-content-wrap" class="wrapper">
+	{% if page.leaderboard %}
+	<section id="leaderboard" class="wrapper leaderboard">
+		<div class="container">
+			{{ page.leaderboard }}
+		</div>
+	</section>
+	{% endif %}
+	{% if page.above_content %}
+	<section id="above-content" class="wrapper">
+		<div class="container">
+			{{ page.above_content }}
+		</div>
+	</section>
+	{% endif %}
+
+	{% if page.content %}
+	<section id="main-content" class="container">
+		<div class="row">
+			<div class="col-xs-12 {% if page.aside %}sidebar{% endif %}" id="main"> 
+				{{ page.content }}
+			</div>
+			{% if page.aside %}
+			<aside class="col-xs-12" id="sidebar">
+				{{ page.aside }}
+			</aside>
+			{% endif %}
+		</div>
+	</section>
+	{% endif %}
+	{% if page.middle_leader %}
+	<section class="middle-leader leaderboard" id="middle-leader">
+		<div class="container">
+			{{ page.middle_leader }}
+		</div>
+	</section>
+	{% endif %}
+
+	{% if page.under_content %}
+	<section class="under-content container" id="under-content">
+		{{ page.under_content }}
+	</section>
+	{% endif %}
+
+	{% if page.lower_leader %}
+	<section class="lower-leader leaderboard" id="lower-leader">
+		<div class="container">
+			{{ page.lower_leader }}
+		</div>
+	</section>
+	{% endif %}
+</div>
+</div>
