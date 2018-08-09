@@ -24,7 +24,8 @@ sites/*/services*.yml
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-!sites/*/files/config_PmTEiyZJL21fok3s145s_uzmMPp_kxk3eV5YtffgeZXIOhX3TxTtyj8uuTSHcbAysWdJSYz_8w
+!sites/default/files/config_PmTEiyZJL21fok3s145s_uzmMPp_kxk3eV5YtffgeZXIOhX3TxTtyj8uuTSHcbAysWdJSYz_8w/*
+!sites/default/files/config_PmTEiyZJL21fok3s145s_uzmMPp_kxk3eV5YtffgeZXIOhX3TxTtyj8uuTSHcbAysWdJSYz_8w/
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 
