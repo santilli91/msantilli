@@ -1,11 +1,11 @@
 body {
-  background-color: #afafaf;
+  background-color: #000;
 }
 
 a {
   font-family: 'arial';
   font-weight: bold;
-  color: red;
+  color: green;
   text-decoration: none;
   letter-spacing: .8px;
 
