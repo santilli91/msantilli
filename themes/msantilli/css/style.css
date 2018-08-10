@@ -8,8 +8,10 @@ a {
   color: red;
   text-decoration: none;
   letter-spacing: .8px;
+
 }
 
 article {
   background: url('https://s3.amazonaws.com/Consultant/white-wall_1194-5956.jpg');
+  color: gray;
 }
