@@ -9,7 +9,7 @@ _core:
 id: msantilli_local_tasks
 theme: msantilli
 region: content
-weight: -40
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
