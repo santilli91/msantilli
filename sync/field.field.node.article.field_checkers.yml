@@ -1,0 +1,23 @@
+uuid: 8ced1695-f94e-44a6-8e40-128e9ab87251
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checkers
+    - node.type.article
+id: node.article.field_checkers
+field_name: field_checkers
+entity_type: node
+bundle: article
+label: Checkers
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

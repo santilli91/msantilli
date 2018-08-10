@@ -1,0 +1,20 @@
+uuid: 2d69c3c1-2736-4a6d-9eea-6a29ac11e6e8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - msantilli
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: msantilli_local_actions
+theme: msantilli
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

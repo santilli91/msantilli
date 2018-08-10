@@ -22,13 +22,11 @@ sites/*/settings*.php
 sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-sites/default/files
-sites/default/private
-
+sites/*/files
+sites/*/private
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
-!sites/default/files/config_PmTEiyZJL21fok3s145s_uzmMPp_kxk3eV5YtffgeZXIOhX3TxTtyj8uuTSHcbAysWdJSYz_8w/sync/*
-!sites/default/files/config_PmTEiyZJL21fok3s145s_uzmMPp_kxk3eV5YtffgeZXIOhX3TxTtyj8uuTSHcbAysWdJSYz_8w/sync/
+
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
 
