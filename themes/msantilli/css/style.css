@@ -1,5 +1,6 @@
 body {
-  background-color: red;
+  background-color: green;
+  color: #000;
 }
 
 a {
@@ -9,9 +10,13 @@ a {
   text-decoration: none;
   letter-spacing: .8px;
   font-size: 65px;
+  color: #000;
 }
 
 article {
   background: url('https://s3.amazonaws.com/Consultant/white-wall_1194-5956.jpg');
-  color: gray;
+  color: black;
+}
+article a {
+	color: blue;
 }
