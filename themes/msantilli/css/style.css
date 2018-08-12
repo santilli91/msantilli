@@ -1,16 +1,16 @@
 body {
-  background-color: green;
-  color: #000;
+  background-color: black;
+  color: green;
 }
 
-a {
+#main a {
   font-family: 'arial';
   font-weight: bold;
   color: green;
   text-decoration: none;
   letter-spacing: .8px;
   font-size: 65px;
-  color: #000;
+  color: green;
 }
 
 article {
@@ -19,4 +19,9 @@ article {
 }
 article a {
 	color: blue;
+}
+img {
+	padding: 2px;
+	background: #fff;
+	border-radius: 8px;
 }
