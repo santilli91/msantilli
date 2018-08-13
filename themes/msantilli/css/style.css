@@ -1,17 +1,27 @@
 body {
-  background-color: #000;
+  background-color: black;
+  color: green;
 }
 
-a {
+#main a {
   font-family: 'arial';
   font-weight: bold;
   color: green;
   text-decoration: none;
   letter-spacing: .8px;
-
+  font-size: 65px;
+  color: green;
 }
 
 article {
   background: url('https://s3.amazonaws.com/Consultant/white-wall_1194-5956.jpg');
-  color: gray;
+  color: black;
+}
+article a {
+	color: blue;
+}
+img {
+	padding: 2px;
+	background: #fff;
+	border-radius: 10px;
 }
