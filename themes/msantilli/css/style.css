@@ -18,10 +18,10 @@ article {
 }
 article a {
 	color: blue;
-  color: green;
+  color: red;
 }
 img {
-	padding: 2px;
+	padding: 5px;
 	background: #fff;
 	border-radius: 15px;
 
